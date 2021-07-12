@@ -1,0 +1,248 @@
+header {
+    background-color: #f4f6fd;
+}
+
+.idiom {
+    color: #032C6C;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    display: block;
+    border-right: 1px solid #032C6C;
+    padding-right: 15px;
+    line-height: 17px;
+    margin-left: 20%;
+    float: left;
+}
+
+.idiom1 {
+    color: #032C6C;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    border-right: 1px solid #032C6C;
+    margin-top: 0;
+    margin-left: 25%;
+    background: url(https://www.grupobimbo.com/sites/all/themes/corporate/css/assets/backgrounds/arrow-dwn.svg) 90% center no-repeat;
+    background-size: 1%;
+    background-position: 6%;
+    border: 0px solid #1C306A;
+}
+
+.link1 {
+    color: #032C6C;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    margin-left: 35%;
+    float: left;
+    display: block;
+    border-right: 1px solid #032C6C;
+    padding-right: 15px;
+    line-height: 20px;
+}
+
+.link2 {
+    color: #032C6C;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    margin-left: 1%;
+    float: left;
+}
+
+.twitter {
+    width: 3%;
+    float: right;
+}
+
+.facebook {
+    width: 3%;
+    float: right;
+}
+
+.instagram {
+    width: 3%;
+    float: right;
+}
+
+.youtube {
+    width: 3%;
+    margin-right: 10%;
+    float: right;
+}
+
+.logobimb {
+    width: 10%;
+    margin-left: 7%;
+}
+
+li {
+    float: left;
+    list-style: none;
+    padding: 10px;
+    color: #1C306A;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 510;
+    position: relative;
+}
+
+nav {
+    float: right;
+    margin-right: 15%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover a {
+    color: rgb(247, 55, 55);
+} 
+
+.mazor {
+    width: 35%;
+    margin-left: 7%;
+    margin-top: 2%;
+    float: left;
+}
+
+.Trabajadores {
+    width: 45%;
+    margin-right: 7%;
+    margin-top: 2%;
+    float: right;
+}
+
+.Personas {
+    width: 45%;
+    margin-right: 7%;
+    margin-top: 2%;
+    float: right;
+}
+
+.Noso {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.h2one {
+    color: #7F8FC3;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size:xx-large;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.marca1 {
+    margin-left: 15%;
+}
+
+.marca2 {
+    margin-left: 15%;
+}
+
+.marca3 {
+    margin-left: 15%;
+}
+
+.marca4 {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.marca5 {
+    margin-left: 5%;
+}
+
+.marca6 {
+    margin-left: 7%;
+}
+
+.marca7 {
+    margin-left: 7%;
+}
+
+.marca8 {
+    margin-left: 7%;
+}
+
+.marca9 {
+    margin-left: 3%;
+}
+
+.marca10 {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.marca11 {
+    margin-left: 7%;
+}
+
+.marca12 {
+    margin-left: 7%;
+}
+
+.marca13 {
+    margin-left: 7%;
+}
+
+.boton {
+    background: #1C306A;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 40px;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+hr {
+    color: #6c7cac;
+    size: 5px;
+    margin-top: 3%;
+    width: 95%;
+}
+
+.h2two {
+    font-size: 30px;
+    color: #7F8FC3;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.h3one {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #7F8FC3;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.parrafo strong {
+    color: #7F8FC3;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.parrafo {
+    color: #666976;
+    margin-left: 5%;
+    font-size: 20px;
+}
