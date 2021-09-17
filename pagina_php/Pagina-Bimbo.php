@@ -9,11 +9,15 @@
     <title>Grupo Bimbo | María Cárdenas</title>
 </head>
 <body>
+    <!--Titulo de la pagina-->
     <center><h1 class="titulo">¡Bienvenido a Bimbo!</h1><img class="imagen" src="Imagenes/bimbo.jpg"></center>
+
+    <!--Formulario para crear un perfil-->
     <form action="BB-Bimbo.php" method="post">
             <p class="parr1"> Nombre <input type="text" name="Nombre" /> </p>
-            <p class="parr2"> Apellido <input type="text" name="Apellido" /> </p>
-            <p class="parr3"> Edad <input type="text" name="Edad" /> </p>
+            <p class="parr1"> Apellido <input type="text" name="Apellido" /> </p>
+            <p class="parr2"> Edad <input type="text" name="Edad" /> </p>
+            <p class="parr3"> Fecha de nacimiento <input type="date" name="Fecha_de_nacimiento" /> </p>
             <p class="parr4"> Correo electronico <input type="text" name="Correo" /> </p>
             <p class="parr5"> Confirmar dirección de correo electronico <input type="text" name="Confirmación_correo" /> </p>
             <p class="parr6"> Número de celular <input type="text" name="Celular" /> </p>

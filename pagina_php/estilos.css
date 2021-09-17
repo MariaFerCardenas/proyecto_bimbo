@@ -1,4 +1,6 @@
 
+/* Estilos de Pagina-Bimbo.php*/
+
 .titulo {
     font-size: 30pt;
     text-shadow: 5px 3px 2px #93968f, -3px 6px 5px #58d1e3;
@@ -9,11 +11,17 @@
     height: 15%;
 }
 
-.parr1 {
+.parr0 {
     font-family: Florence, Cursive;
     color: rgb(20, 109, 136); 
     margin-left: 10%; 
     margin-bottom: 0%;
+}
+
+.parr1 {
+    font-family: Florence, Cursive;
+    color: rgb(20, 109, 136); 
+    margin-left: 10%;
 }
 
 .parr2 {
@@ -87,3 +95,6 @@
     color: rgb(255, 255, 255);
     font-size: small;
 }
+
+
+

@@ -8,10 +8,13 @@
     <title>Grupo Bimbo | Perfil </title>
 </head>
 <body>
+    <font face="Tahoma" </font>
     <?php
         //Titulo
         echo '<center><h1>Perfil creado en Bimbo</h1></center></style>';
     ?>
+    <body bgcolor="B0DDF9">
+    <font face="Arimo" </font>
     <center>
     <?php
         //Variable para el nombre del usuario
@@ -29,12 +32,16 @@
         //Condiciones para la edad del usuario
        
         if ($Edad <= 13) {
-            echo "Tu eres un niñ@ de:" . $Edad . "<br/></h5>";
+            echo "<h5>Tu eres un niñ@ de:" . $Edad . "<br/></h5>";
         } elseif ($Edad > 13 && $Edad < 19) {
-            echo "Tu eres un adolescente de:" .  $Edad . "<br/></h5>";
+            echo "<h5>Tu eres un adolescente de:" .  $Edad . "<br/></h5>";
         } else {
-            echo "Tu eres un adulto de:" .  $Edad . "<br/></h5>";
+            echo "<h5>Tu eres un adulto de:" .  $Edad . "<br/></h5>";
         }
+
+        //Variable para la fecha de nacimiento del usuario
+        $Fecha_de_nacimiento= $_POST['Fecha_de_nacimiento'];
+        echo "<h5>Usted nacio el: " . $Fecha_de_nacimiento . "<br/></h5>";
 
         //Variable para el correo del usuario
         $Correo= $_POST['Correo'];
@@ -65,5 +72,14 @@
         echo "<h5>El idioma elegido es: " . $Idioma . "<br/></h5>";
     ?>
     </center>
+    <!--Formulario para volver a la pagina de crear un perfil-->
+    <form action="Pagina-Bimbo.php" method="post">
+    <center><p><input type="submit" name="submit" value="<< Volver"/></p></center>
+    </form>
+    
+    <!--Formulario para ir al perfil del usuario-->
+    <form action="Form-Compra.php" method="post">
+    <center><p><input type="submit" name="submit" value="Compras >>"/></p></center>
+    </form>
 </body>
 </html>
