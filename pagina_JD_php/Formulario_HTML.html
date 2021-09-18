@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Este es el icono y el nombre de la pagina-->
+        <link rel="shortcut icon" href="https://grupobimbo-com-custom01-assets.s3.amazonaws.com/s3fs-public/favicon.ico" type="image/vnd.microsoft.icon" />
+        <Title>Formulario Clientes</Title>
+    </head>
+    <body>
+        <!--En este sitio están las letras del idioma en la parte superior izquierda-->
+        <header>
+            <div class="idioma">Idioma</div>
+            <div class="idioma1">Espanol</div>
+
+        <!--En los siguientes links se encuentran todo en el header con links de las redes sociales y contacto con la empresa BIMBO-->
+        <div class="link1">
+            <a href="https://www.grupobimbo.com/es/bolsa-de-trabajo-bimbo">Unete a Nuestro Equipo</a>
+        </div>
+        <div class="link2">
+            <a href="https://www.grupobimbo.com/es/contacto">Contacto</a>
+        </div>
+        <div class="redes">
+            <a href="https://www.youtube.com/user/BimboCorporativo"><img class="youtube" src="ImagenesB/youtube.PNG"
+                    title="Visita nuestro canal de BimboCorporativo"></a>
+            <a href="https://www.instagram.com/grupo_bimbo"><img class="instagram" src="ImagenesB/instagram.PNG"
+                    title="Visita nuestro canal de Instagram"></a>
+            <a href="https://www.facebook.com/GrupoBimbo"><img class="facebook" src="ImagenesB/facebook.PNG"
+                    title="Ir a nuestra fanpage GrupoBimbo"></a>
+            <a href="https://twitter.com/Grupo_Bimbo"><img class="twitter" src="ImagenesB/twitter.PNG"
+                    title="Ir a nuestra cuenta Grupo_Bimbo"></a>
+        </div>
+        <div class="logo">
+            <img class="logobimb" src="ImagenesB/Titulo.png"></a>
+        </div>
+
+        <!--Este espacio corresponde al menu de la pagina-->
+        <nav class="menu">
+            <ul>
+                <li><a href="http://52.73.20.158/MARIA-CARDENAS/PAGINA_BIMBO.html">Inicio</a></li>
+                <li><a href="https://github.com/Juan-Diego01/Proyecto_Bimbo">GitHub</a></li>
+                <li><a href="https://sites.google.com/misena.edu.co/optimalservers/inicio">Optimal Servers</a></li>
+                <li><a href="https://drive.google.com/drive/folders/1xMs2HetviwEzgYlFnqrJ2p0u1DYKNLgN?hl=es">Carpeta de proyecto</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <!--A partir de acá se colocaron las imágenes del fondo-->
+        <h2><strong>Sea un cliente de BIMBO</strong></h2>
+
+        <div>
+            <img class="fondito" src="ImagenesB/ImagenFondo3.png" align="left">
+        </div>
+            
+        <div>
+            <img class="fondito" src="ImagenesB/ImagenFondo2.png" align="right">
+        </div>
+
+        <!--Formulario:-->
+        <div>
+        <!--form action="http://localhost:8080/PROYECTO_BIMBO/FORMULARIO_PHP.php" method="POST"-->
+        <!--Se cambia el nombre asignado al formulario, ya que no funcionaba al ejecutarlo en el servidor-->
+
+        <form action="FORMULARIO_PHP.php" method="POST">
+            <p class="datos" align=left>Primer nombre <input type="text" name="nombre"/></p>
+            <p class="datos" align=left>Segundo nombre <input type="text" name="Snombre"/></p>
+            <p class="datos" align=left>Primer apellido <input type="text" name="apellido"/></p>
+            <p class="datos" align=left>Segundo apellido <input type="text" name="Sapellido"/></p>
+            <p class="datos" align=left>Cargo ejercido en la empresa <input type="text" name="cargo"/></p>
+            <p class="datos" align=left>Nombre de su empresa <input type="text" name="nombreE"/></p>
+            <p class="datos" align=left>E-mail <input type="text" name="contactoE" placeholder="email.personal@gmail.com"/></p>
+            <p class="datos" align=left>Sede principal de ubicacion de la empresa <input type="text" name="SedeP" placeholder="Ciudad"/></p>
+            <p class="datos" align=left>Codigo postal de la sede <input type="number" name="CodPos" placeholder="000000"/></p>
+            <p class="datos" align=left>Numero del personal de la empresa <input type="number" name="Npersonal" placeholder="Numero de empleados"/></p>
+            <p class="datos" align=left>Contacto <input type="text" name="Contacto" placeholder="email@empresa.com"/></p>
+           
+            <!--Se agrego un cuadro de texto más grande para escribir los comentarios-->
+            <p class="datos" align=left>Mensaje <textarea name="Comentarios" rows="5" cols="35">Escribe aqui tus comentarios</textarea></p>
+            <p class="datos" align=left>Fecha <input type="text" name="fecha" placeholder="DD/MM/AAAA"/></p>
+        
+            <!--Aquí empieza la parte de selección multiple para el cliente-->
+        
+            <p class="datos" align=left>En caso de ser una compra particular, </br> ¿Que desea comprar? </p>
+            <p class="productos" >A la derecha ingrese </br> la cantidad de los productos deseados</h6>
+            <p class="datos" align=left>Gansito - $2000 </p>
+            <p class="cantidad">Cantidad Gansito <input type="number" name="cant1" /></p>
+            <p class="datos" align=left>Tortillas - $5000 </p>
+            <p class="cantidad" align=left>Cantidad Tortillas <input type="number" name="cant2"></p>
+            <p class="datos" align=left>Pinguino - $1500 </p>
+            <p class="cantidad" align=left>Cantidad Pinguino <input type="number" name="cant3"></p>
+            <p class="datos" align=left>Pan artesano - $4500 </p>
+            <p class="cantidad" align=left>Cantidad Pan Artesano <input type="number" name="cant4"></p>
+            <p class="datos" align=left>Pan blanco - $5000 </p>
+            <p class="cantidad" align=left>Cantidad Pan Blanco <input type="number" name="cant5"></p>
+            <p class="datos" align=left>Pan Integral - $6000 </p>
+            <p class="cantidad" align=left>Cantidad Pan Integral <input type="number" name="cant6"></p>
+        </br>
+            <p align=center><input type="submit" value="Enviar"/></p>
+        </form>
+        </div>
+    
+    <!-- Aquí hay otro menú con los términos de privacidad en el footer:-->
+    <footer>
+        <nav>
+            <div class="menu2">
+                <li "center" ><a class="A" href="https://privacy.grupobimbo.com">Aviso de privacidad</a></li>
+                <li "center"><a class="B" href="https://www.grupobimbo.com/es/términos-y-condiciones">Terminos y Condiciones</a></li>
+                <li "center"><a class="C" href="https://www.grupobimbo.com/es/mapa-del-sitio">Mapa de Sitio</a></li></br>
+                <p class="derechos">Grupo Bimbo 2021 © Todos los Derechos Reservados</p>
+            </div>
+        </nav>
+    </footer>
+    </body>
+    </div>
+
+           <!--Estos son los estilos deseados para cada parte del front-end-->
+           <Style>
+               /*Éste es para las letras del formulario*/
+            .datos {
+                font-family: 'Nunito Sans', sans-serif;
+                font-size: 18px;
+                color: #4265d6;
+                margin-left: 50%;
+            }
+                /*Éste es para el comentario entre el formulario y la calculadora*/
+            .productos {
+                font-family: 'Nunito Sans', sans-serif;
+                font-size: 15px;
+                color: #032C6C;
+                margin-left: 720px;
+            }
+                /*Éste es para la cantidad de productos*/
+            .cantidad {
+                font-family: 'Nunito Sans', sans-serif;
+                font-size: 18px;
+                color: #d64298;
+                margin-left: 50%;
+            }
+                /*Éste es para el formulario en general*/
+            form {
+                margin-top: 50px;
+            }
+                /*Éste es para el título del form*/
+            h2 {
+                text-align: center;
+                font-family: 'Nunito Sans', sans-serif;
+                font-weight: 100;
+                color: #7F8FC3;
+                font-size: 40px;
+                margin-top: 150px;
+            }
+                /*Éste es para el header*/
+            header {
+                background-color: #f4f6fd;
+                height: 130px;
+            }
+                /*Éste es para la parte de idioma arriba a la izquierda*/
+            .idioma {
+                color: #032C6C;
+                font-size: 12px;
+                font-weight: 700;
+                font-family: 'Nunito Sans', sans-serif;
+                display: block;
+                border-right: 1px solid #032C6C;
+                padding-right: 15px;
+                line-height: 17px;
+                margin-left: 20%;
+                float: left;
+            }
+                /*Éste es para la parte de idioma arriba a la izquierda*/
+            .idioma1 {
+                color: #032C6C;
+                font-size: 12px;
+                font-weight: 700;
+                font-family: 'Nunito Sans', sans-serif;
+                border-right: 1px solid #032C6C;
+                margin-left: 25%;
+                background: url(https://www.grupobimbo.com/sites/all/themes/corporate/css/assets/backgrounds/arrow-dwn.svg) 90% center no-repeat;
+                background-size: 1%;
+                background-position: 6%;
+                border: 0px solid #1C306A;
+            }
+                /*Éste es el estilo para el primer link*/
+            .link1 {
+                color: #032C6C;
+                font-size: 12px;
+                font-weight: 700;
+                font-family: 'Nunito Sans', sans-serif;
+                text-decoration: none;
+                margin-left: 35%;
+                float: left;
+                display: block;
+                border-right: 1px solid #032C6C;
+                padding-right: 15px;
+                line-height: 20px;
+            }
+                /*Éste es el estilo para el segundo link*/
+            .link2 {
+                color: #032C6C;
+                font-size: 12px;
+                font-weight: 700;
+                font-family: 'Nunito Sans', sans-serif;
+                text-decoration: none;
+                margin-left: 1%;
+                float: left;
+            }
+                /*Éste es el estilo para la red de twitter*/
+            .twitter {
+                width: 3%;
+                float: right;
+            }
+                /*Éste es el estilo para la red de facebook*/
+            .facebook {
+                width: 3%;
+                float: right;
+            }
+                /*Éste es el estilo para la red de instagram*/
+            .instagram {
+                width: 3%;
+                float: right;
+            }
+                /*Éste es el estilo para la red de youtube*/
+            .youtube {
+                width: 3%;
+                margin-right: 10%;
+                float: right;
+            }
+            /*Todos los anteriores se encuentran posicionados arriba a la derecha*/
+                /*Éste es el estilo para el logo bimbo.*/
+            .logobimb {
+                width: 10%;
+                margin-left: 7%;
+            }
+            /*Éste es el estilo para el primer menú*/
+            .menu {
+                list-style: none;
+                padding: 10px;
+                color: #000000;
+                font-family: 'Nunito Sans', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 510;
+                position: relative;
+                float: right;
+                margin-right: 15%;
+            }
+            /*Este es para los elementos en el footer*/
+            li {
+                list-style: none;
+                position: relative;
+                float: left;
+                padding-right: 1em;
+            }
+            /*Este es para los elementos en el footer en general*/
+            footer{
+                background: none repeat scroll 0 0 #1C306A;
+                height: 130px;
+                padding: 0px;
+                text-align: center;
+            }
+            /*Este es para el texto en el footer*/
+            .derechos{
+                color:#FFFFFF;
+                font-family: 'Nunito Sans', sans-serif;
+                background-color: #1C306A;
+                text-align: center;
+                margin-right: 650px;
+                margin-top: 40px;
+            }
+            /*Este es para el segundo menú*/
+            .menu2 {
+                margin-top: 100px;
+                font-family: 'Nunito Sans', sans-serif;
+                color:#FFFFFF;
+                padding: 2.5em;
+                line-height: 17px;
+                margin-left: 700px;
+                text-align: center;
+            }
+            /*Los siguientes estilos son para los links del footer*/
+            .A {
+                Color:white;
+                text-align: center;
+                line-height: 17px;
+            }
+
+            .B {
+                Color:white;
+                text-align: center;
+                line-height: 17px;
+            }
+
+            .C {
+                Color:white;
+                text-align: center;
+            }
+            /*Este es para las imágenes del fondo*/
+            .fondito {
+                margin-top: 100PX;
+            }
+
+
+        </Style>
+    </body>
+</html>
